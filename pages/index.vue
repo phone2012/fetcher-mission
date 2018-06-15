@@ -37,6 +37,17 @@
           <nuxt-link to="/fetcher/catch_me" class="text-link hover-blue">GO</nuxt-link>
         </div>
       </div>
+      <div class="box">
+        <div class="col move-tail">
+          <div class="content">
+            <h1 class="text-topic">LV 999</h1>
+            <h4 class="text-subtitle">Components</h4>
+          </div>
+        </div>
+        <div class="col box-link bg-green move-head">
+          <nuxt-link to="/components" class="text-link hover-blue">GO</nuxt-link>
+        </div>
+      </div>
     </div>
   </section>
 </template>
