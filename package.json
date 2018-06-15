@@ -1,0 +1,33 @@
+{
+  "name": "show_me_the_data",
+  "version": "1.0.0",
+  "description": "just show me the dataaaaaaaaa",
+  "author": "W0RNut <worasitipon.t@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "autoprefixer": "^8.6.2",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "nuxt": "^1.0.0",
+    "postcss-cli": "^5.0.0",
+    "postcss-preset-env": "^5.1.0",
+    "sass-loader": "^7.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "lost": "^8.3.0"
+  }
+}
