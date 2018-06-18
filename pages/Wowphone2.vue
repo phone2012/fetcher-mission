@@ -43,10 +43,7 @@ export default {
     return {
       posts: [],
       errors: [],
-      num: '',
-      num1: '',
-      appear: false,
-      appear1: false,
+      num:Number,
     };
   },
   methods: {
@@ -123,3 +120,14 @@ export default {
   }
 
 </style>
+
+
+
+
+
+myFunction2() {
+  axios.get('https://jsonplaceholder.typicode.com/posts/' +this.x)
+    .then((response) => {
+      this.posts = response.data;
+      console.log(this.posts);
+      },
