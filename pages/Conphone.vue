@@ -1,6 +1,8 @@
 <template lang="html">
   <div class="container">
-  <!-- <p>Math.floor(Math.random() * 100) + 1) returns a random integer between 1 and 100 (both included).</p> -->
+    <div class="topic">
+        <strong>-  SHOW  DATA  -</strong>
+    </div>
     <div class="display">
       <h2>JavaScript Math</h2>
       <button @click="myFunction()">GetData</button>
@@ -51,12 +53,25 @@ export default {
 </script>
 
 <style lang="css">
+.container{
+  display           : flex;
+  flex-direction    : column;
+}
+.topic{
+   display           : flex;
+  flex-direction    : column;
+  font-size          : 2.25rem;
+  background-color   :lightgray;
+  width              : 80%;
+  height             : 200px;
+
+}
 .display{
-  width              : 90%;
+  width              : 80%;
   height             : 1500px;
   color              : black;
   font-size          : 2.25rem;
-  margin             : 50px;
+  margin-left        : 150px;
   background-color   :lightgray;
 }
 
