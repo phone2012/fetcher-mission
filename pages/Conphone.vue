@@ -4,18 +4,19 @@
         <strong>-  SHOW  DATA  -</strong>
     </div>
     <div class="display">
-      <h2>JavaScript Math</h2>
-      <button @click="myFunction()">GetData</button>
-      <p>{{ num }}</p>
-      <p>{{ posts.title }}</p>
-      <ul>
-        <li
-          v-for="post1 of posts1"
-          :key="post1.id">
-          <p>{{ post1.body }}</p>
-          <p>{{ post1.email }}</p>
-        </li>
-      </ul>
+      <div class="txt">
+       <button @click="myFunction()">GetData</button>
+       <p>{{ num }}</p>
+       <p>{{ posts.title }}</p>
+       <ul>
+         <li
+           v-for="post1 of posts1"
+           :key="post1.id">
+           <p>{{ post1.body }}</p>
+           <p>{{ post1.email }}</p>
+         </li>
+       </ul>
+      </div>
    </div>
   </div>
 </template>
@@ -61,9 +62,10 @@ export default {
    display           : flex;
   flex-direction    : column;
   font-size          : 2.25rem;
-  background-color   :lightgray;
+  background-color   :#3d0099;
   width              : 80%;
   height             : 200px;
+  margin-left        : 150px;
 
 }
 .display{
@@ -72,7 +74,16 @@ export default {
   color              : black;
   font-size          : 2.25rem;
   margin-left        : 150px;
-  background-color   :lightgray;
+  background-color   :#9966ff;
+}
+.txt{
+width              : 70%;
+height             : 1500px;
+color              : black;
+font-size          : 2.25rem;
+margin             : 150px;
+background-color   :#9966ff;
+
 }
 
 </style>
