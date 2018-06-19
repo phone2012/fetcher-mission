@@ -43,7 +43,10 @@ export default {
     return {
       posts: [],
       errors: [],
-      num:Number,
+      num: '',
+      num1: '',
+      appear: false,
+      appear1: false,
     };
   },
   methods: {
@@ -85,6 +88,7 @@ export default {
   body{
       margin            : 0;
       padding           : 0;
+      
   }
   .container {
     display           : flex;
